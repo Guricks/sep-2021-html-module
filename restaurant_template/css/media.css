@@ -58,4 +58,8 @@
     .header__text p::after {
         display: none;
     }
+    .wrap__trip__menu {
+        flex-direction: column;
+        row-gap: 14px;
+    }
 }
