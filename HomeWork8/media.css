@@ -1,0 +1,42 @@
+@media screen and (min-width: 1200px) {
+ .card__second {
+     padding-left: 200px;
+ }
+    .card__two {
+        padding-right: 100px;
+    }
+    .card__four_tx {
+    padding-top: 180px;
+    }
+}
+@media screen and (max-width: 974px) {
+    .card__second, .card__third {
+        display: flex;
+        justify-content: center;
+    }
+    }
+    .card p::before,
+    .card p::after {
+        width: 97%;
+    }
+.card__third {
+    padding: 50px 20px;
+}
+
+
+@media screen and (max-width:899px) {
+    .card h1, .card__two h3  {
+       text-align: center;
+    }
+    .card p, .card__two p {
+        text-align: center;
+    }
+}
+@media screen and (max-width:675px) {
+    .card__second img, .card__third img {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+

@@ -1,0 +1,95 @@
+.card p::before,
+.card p::after {
+    content: "";
+    display: block;
+    width: 200px;
+    border: 4px solid #EDEFF3;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #2E75FF;
+}
+.card {
+    border: none;
+    padding-left: 14px
+;
+}
+.card-title {
+    padding-top: 50px;
+    color: #1652AC;
+}
+
+.card-text {
+    font-size: 17px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: 600;
+    color: #020303;
+}
+.card__second img {
+    width: 500px;
+    height:520px;
+    justify-content: end;
+}
+.card__third img{
+    width: 650px;
+    height: 380px;
+    margin-top: 30px;
+}
+.card-text__third p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+.card-text__third span {
+    color: #020303;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+}
+.block__three {
+    margin-top: 60px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.card__four_tx  {
+    padding: 40px 100px;
+    text-align: center;
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
+.block__three, .row {
+    --bs-gutter-x: 0;
+}
+.card__four_tx h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+}
+.card__four_tx p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
+.card__four_tx span {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #FBFDFF;
+}
