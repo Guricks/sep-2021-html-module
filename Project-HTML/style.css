@@ -115,7 +115,7 @@ p,h1,h2,h3,h4,h5 {
     text-align: end;
 }
 
-                       /*nav-bottom__down*/
+                                     /*nav-bottom__down*/
 .nav-bottom__down {
     margin-top: 30px;
 }
@@ -164,26 +164,54 @@ p,h1,h2,h3,h4,h5 {
     line-height: 16px;
 }
 
-                             /*main*/
+                                      /*main*/
 .main {
     margin-top: 30px;
+}
+.main__carousel {
+    background: url("../Project-HTML/pictures/Mask Group (1).png") no-repeat center/cover;
+    border-radius: 10px;
+}
+.main__carousel-info {
+    flex-direction: column;
+    margin-left: 160px;
 
 }
-.main__one {
-    position: relative;
+.main__carousel-info h2 {
+    font-size: 36px;
+    line-height: 42px;
+}
+.main__carousel-info h4 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+}
+.main__carousel-info h3 {
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+}
+.main__carousel-info h5 {
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.main__carousel-info button {
+    background: #005BB9;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: fit-content;
+    padding: 15px 30px;
+    margin-top: 15px;
+}
 
-
-}
-.main__one-img {
-    position: absolute;
-    left: 480px;
-    top: 30px
-}
-.main__one-info {
-position: absolute;
-    left: 150px;
-    top: 150px;
-}
+                                       /*main__right*/
 .r-block__one, .r-block__two {
     background-color: #F4F5FA;
     width: 100%;
@@ -254,6 +282,7 @@ position: absolute;
     height: fit-content;
     padding: 7px 15px;
 }
+                                        /*main__bottom*/
 .main__bottom {
     margin-top: 70px;
     color: #0A1A2C;
@@ -322,6 +351,88 @@ position: absolute;
     top: 70px;
     left: 1240px;
 }
+                                     /*product*/
+.product__header {
+   column-gap: 40px;
+    margin-top: 70px;
+    margin-bottom: 34px;
+}
+.product__header label {
+    font-size: 20px;
+    line-height: 23px;
+    padding: 16px 32px;
+    border-radius: 6px;
+}
+.product__main-card {
+    box-sizing: border-box;
+}
+.product__main-card .card {
+    border: none;
+}
+.p__m-card-body {
+    margin-top: 15px;
+}
+.card-img-top {
+    width: 272px;
+    height: 231px;
+}
+.p__m-card-body h6 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFB800;
+}
+.p__m-card-body p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0B0B0;
+}
+.p__m-card-body h4 {
+    margin-top: 10px;
+    margin-bottom: 46px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+}
+.p__m-card-body p {
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.p__m-card-body .btn {
+    margin-right: 0;
+    font-size: 13px;
+    line-height: 15px;
+    border-radius: 6px;
+    padding: 15px 45px;
+}
+div.sale {
+    background: #FFB800;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 3px 6px;
+    top: 10px;
+    left: 25px;
+}
+p.one__mid-box  {
+    font-size: 22px;
+
+    color: #FFB800;
+}
+.mid__box {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.product__footer button {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px 40px;
+    margin-top: 55px;
+}
+
 
 
 
