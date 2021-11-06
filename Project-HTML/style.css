@@ -463,6 +463,9 @@ p.one__mid-box  {
     box-sizing: border-box;
     column-gap: 30px;
 }
+.info__middle-bloc {
+    width: 25%;
+}
 .info__middle-bloc h6 {
     margin-bottom: 17px;
     border-radius: 4px;
