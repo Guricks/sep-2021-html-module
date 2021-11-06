@@ -106,7 +106,8 @@
     .media__setting img {
         display: block;
     }
-    .form-control {
+    input.form-control {
+        width: 260px;
         height: 40px;
     }
     .form-inline {
